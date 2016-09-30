@@ -15,3 +15,6 @@ script:
 after_script:
   - chmod +x ./codeclimate.sh
   - ./codeclimate.sh
+
+after_success:
+  - coveralls
