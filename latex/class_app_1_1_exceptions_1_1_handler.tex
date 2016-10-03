@@ -1,0 +1,75 @@
+\hypertarget{class_app_1_1_exceptions_1_1_handler}{\section{\-Referencia de la \-Clase \-App$\backslash$\-Exceptions$\backslash$\-Handler}
+\label{class_app_1_1_exceptions_1_1_handler}\index{\-App$\backslash$\-Exceptions$\backslash$\-Handler@{\-App$\backslash$\-Exceptions$\backslash$\-Handler}}
+}
+\subsection*{\-Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_app_1_1_exceptions_1_1_handler_af22245f99075b9c81e5952c6595c6ad2}{report} (\-Exception \$e)
+\item 
+\hyperlink{class_app_1_1_exceptions_1_1_handler_a66fa404d17319d403ff2c2e0f3c81420}{render} (\$request, \-Exception \$e)
+\end{DoxyCompactItemize}
+\subsection*{\-Atributos protegidos}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries \$dont\-Report}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Documentación de las funciones miembro}
+\hypertarget{class_app_1_1_exceptions_1_1_handler_a66fa404d17319d403ff2c2e0f3c81420}{\index{\-App\-::\-Exceptions\-::\-Handler@{\-App\-::\-Exceptions\-::\-Handler}!render@{render}}
+\index{render@{render}!App::Exceptions::Handler@{\-App\-::\-Exceptions\-::\-Handler}}
+\subsubsection[{render}]{\setlength{\rightskip}{0pt plus 5cm}\-App$\backslash$\-Exceptions$\backslash${\bf \-Handler\-::render} (
+\begin{DoxyParamCaption}
+\item[{\$}]{request, }
+\item[{\-Exception \$}]{e}
+\end{DoxyParamCaption}
+)}}\label{class_app_1_1_exceptions_1_1_handler_a66fa404d17319d403ff2c2e0f3c81420}
+\-Render an exception into an \-H\-T\-T\-P response.
+
+
+\begin{DoxyParams}{\-Parámetros}
+{\em $\backslash$\-Illuminate$\backslash$\-Http$\backslash$\-Request} & \$request \\
+\hline
+{\em $\backslash$\-Exception} & \$e \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Devuelve}
+
+\end{DoxyReturn}
+\hypertarget{class_app_1_1_exceptions_1_1_handler_af22245f99075b9c81e5952c6595c6ad2}{\index{\-App\-::\-Exceptions\-::\-Handler@{\-App\-::\-Exceptions\-::\-Handler}!report@{report}}
+\index{report@{report}!App::Exceptions::Handler@{\-App\-::\-Exceptions\-::\-Handler}}
+\subsubsection[{report}]{\setlength{\rightskip}{0pt plus 5cm}\-App$\backslash$\-Exceptions$\backslash${\bf \-Handler\-::report} (
+\begin{DoxyParamCaption}
+\item[{\-Exception \$}]{e}
+\end{DoxyParamCaption}
+)}}\label{class_app_1_1_exceptions_1_1_handler_af22245f99075b9c81e5952c6595c6ad2}
+\-Report or log an exception.
+
+\-This is a great spot to send exceptions to \-Sentry, \-Bugsnag, etc.
+
+
+\begin{DoxyParams}{\-Parámetros}
+{\em $\backslash$\-Exception} & \$e \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Devuelve}
+void 
+\end{DoxyReturn}
+
+
+\subsection{\-Documentación de los datos miembro}
+\hypertarget{class_app_1_1_exceptions_1_1_handler_a4320b6da97e7d289535b28ddd585ad5d}{\index{\-App\-::\-Exceptions\-::\-Handler@{\-App\-::\-Exceptions\-::\-Handler}!\$dont\-Report@{\$dont\-Report}}
+\index{\$dont\-Report@{\$dont\-Report}!App::Exceptions::Handler@{\-App\-::\-Exceptions\-::\-Handler}}
+\subsubsection[{\$dont\-Report}]{\setlength{\rightskip}{0pt plus 5cm}\-App\-::\-Exceptions$\backslash$\-Handler\-::\$dont\-Report\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{class_app_1_1_exceptions_1_1_handler_a4320b6da97e7d289535b28ddd585ad5d}
+{\bfseries \-Valor inicial\-:}
+\begin{DoxyCode}
+ [
+        HttpException::class,
+        ModelNotFoundException::class,
+    ]
+\end{DoxyCode}
+
+
+\-La documentación para esta clase fue generada a partir del siguiente fichero\-:\begin{DoxyCompactItemize}
+\item 
+/home/travis/build/tvargasvicencio/\-Esc\-Basket/app/\-Exceptions/\-Handler.\-php\end{DoxyCompactItemize}

@@ -1,0 +1,40 @@
+\hypertarget{class_app_1_1_http_1_1_kernel}{\section{\-Referencia de la \-Clase \-App$\backslash$\-Http$\backslash$\-Kernel}
+\label{class_app_1_1_http_1_1_kernel}\index{\-App$\backslash$\-Http$\backslash$\-Kernel@{\-App$\backslash$\-Http$\backslash$\-Kernel}}
+}
+\subsection*{\-Atributos protegidos}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries \$middleware}
+\item 
+{\bfseries \$route\-Middleware}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Documentación de los datos miembro}
+\hypertarget{class_app_1_1_http_1_1_kernel_ad3188d9fd58828db5d6d39dbc82eddd5}{\index{\-App\-::\-Http\-::\-Kernel@{\-App\-::\-Http\-::\-Kernel}!\$middleware@{\$middleware}}
+\index{\$middleware@{\$middleware}!App::Http::Kernel@{\-App\-::\-Http\-::\-Kernel}}
+\subsubsection[{\$middleware}]{\setlength{\rightskip}{0pt plus 5cm}\-App\-::\-Http$\backslash$\-Kernel\-::\$middleware\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{class_app_1_1_http_1_1_kernel_ad3188d9fd58828db5d6d39dbc82eddd5}
+{\bfseries \-Valor inicial\-:}
+\begin{DoxyCode}
+ [
+        \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
+        \App\Http\Middleware\EncryptCookies::class,
+        \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
+        \Illuminate\Session\Middleware\StartSession::class,
+        \Illuminate\View\Middleware\ShareErrorsFromSession::class,
+        \App\Http\Middleware\VerifyCsrfToken::class,
+    ]
+\end{DoxyCode}
+\hypertarget{class_app_1_1_http_1_1_kernel_af50346cf358a1207baea2d604746050c}{\index{\-App\-::\-Http\-::\-Kernel@{\-App\-::\-Http\-::\-Kernel}!\$route\-Middleware@{\$route\-Middleware}}
+\index{\$route\-Middleware@{\$route\-Middleware}!App::Http::Kernel@{\-App\-::\-Http\-::\-Kernel}}
+\subsubsection[{\$route\-Middleware}]{\setlength{\rightskip}{0pt plus 5cm}\-App\-::\-Http$\backslash$\-Kernel\-::\$route\-Middleware\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{class_app_1_1_http_1_1_kernel_af50346cf358a1207baea2d604746050c}
+{\bfseries \-Valor inicial\-:}
+\begin{DoxyCode}
+ [
+        'auth' => \App\Http\Middleware\Authenticate::class
+\end{DoxyCode}
+
+
+\-La documentación para esta clase fue generada a partir del siguiente fichero\-:\begin{DoxyCompactItemize}
+\item 
+/home/travis/build/tvargasvicencio/\-Esc\-Basket/app/\-Http/\-Kernel.\-php\end{DoxyCompactItemize}
