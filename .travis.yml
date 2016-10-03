@@ -3,11 +3,32 @@ language: php
 php:
   - 5.6
 
+sudo: false
+
+branches:
+  except:
+    - gh-pages
+
+env:
+  global:
+    - GH_REPO_NAME: EscBasket
+    - DOXYFILE: $TRAVIS_BUILD_DIR/Doxyfile
+    - GH_REPO_REF: github.com/tvargasvicencio/EscBasket.git
+
 before_script:
   - cp .env.travis .env
   - mysql -e 'create database homestead_test;'
   - composer self-update
   - composer install --no-interaction
+
+addons:
+  apt:
+    packages:
+      - doxygen
+      - doxygen-doc
+      - doxygen-latex
+      - doxygen-gui
+      - graphviz
 
 script:
   - vendor/bin/phpunit
@@ -15,3 +36,8 @@ script:
 after_script:
   - chmod +x ./codeclimate.sh
   - ./codeclimate.sh
+
+after_success:
+  - cd $TRAVIS_BUILD_DIR
+  - chmod +x generateDocumentationAndDeploy.sh
+  - ./generateDocumentationAndDeploy.sh
