@@ -41,6 +41,7 @@ set -e
 
 # Create a clean working directory for this script.
 mkdir code_docs
+cp /report /code_docs
 cd code_docs
 
 # Get the current gh-pages branch
