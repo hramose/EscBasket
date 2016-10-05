@@ -68,7 +68,7 @@ rm -rf *
 # to NO, which it is by default. So creating the file just in case.
 echo "" > .nojekyll
 
-cp $TRAVIS_BUILD_DIR/report/ report
+cp -r $TRAVIS_BUILD_DIR/report/ report
 ################################################################################
 ##### Generate the Doxygen code documentation and log the output.          #####
 echo 'Generating Doxygen code documentation...'
