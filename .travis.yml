@@ -19,6 +19,7 @@ before_script:
   - cp .env.travis .env
   - mysql -e 'create database homestead_test;'
   - composer self-update
+  - composer global require 'phpmetrics/phpmetrics'
   - composer install --no-interaction
 
 addons:
@@ -36,6 +37,7 @@ script:
 after_script:
   - chmod +x ./codeclimate.sh
   - ./codeclimate.sh
+  - phpmetrics --report-html=report/myreport.html $TRAVIS_BUILD_DIR
 
 after_success:
   - cd $TRAVIS_BUILD_DIR
