@@ -35,6 +35,7 @@ __AUTHOR__="Tomas Vargas"
 
 ################################################################################
 ##### Setup this script and get the current gh-pages branch.               #####
+ls
 echo 'Setting up the script...'
 # Exit with nonzero exit code if anything fails
 set -e
@@ -46,7 +47,6 @@ cd code_docs
 # Get the current gh-pages branch
 git clone -b gh-pages https://git@$GH_REPO_REF
 cd $GH_REPO_NAME
-cp $TRAVIS_BUILD_DIR/report/ report
 
 ##### Configure git.
 # Set the push default to simple i.e. push only the current branch.
@@ -68,6 +68,7 @@ rm -rf *
 # to NO, which it is by default. So creating the file just in case.
 echo "" > .nojekyll
 
+cp $TRAVIS_BUILD_DIR/report/ report
 ################################################################################
 ##### Generate the Doxygen code documentation and log the output.          #####
 echo 'Generating Doxygen code documentation...'
