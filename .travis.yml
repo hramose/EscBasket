@@ -37,7 +37,7 @@ script:
 after_script:
   - chmod +x ./codeclimate.sh
   - ./codeclimate.sh
-  - phpmetrics --report-html=report/myreport.html $TRAVIS_BUILD_DIR
+  - php $TRAVIS_BUILD_DIR/vendor/phpmetrics/phpmetrics/bin/phpmetrics --report-html=report/PHPMetricsReport.html $TRAVIS_BUILD_DIR
 
 after_success:
   - cd $TRAVIS_BUILD_DIR
