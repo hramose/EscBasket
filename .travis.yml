@@ -21,6 +21,7 @@ before_script:
   - composer self-update
   - composer global require 'phpmetrics/phpmetrics'
   - composer install --no-interaction
+  - mv $TRAVIS_BUILD_DIR/report.html.twig $TRAVIS_BUILD_DIR/vendor/phpmetrics/phpmetrics/templates/html/summary/report.html.twig
 
 addons:
   apt:
