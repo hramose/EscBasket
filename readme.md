@@ -7,4 +7,7 @@ Badges:
 [![Issue Count](https://codeclimate.com/github/tvargasvicencio/EscBasket/badges/issue_count.svg)](https://codeclimate.com/github/tvargasvicencio/EscBasket)
 
 https://tvargasvicencio.github.io/EscBasket/html/
+
 https://tvargasvicencio.github.io/EscBasket/report/
+
+https://tvargasvicencio.github.io/EscBasket/report/PHPMetricsReport.html
