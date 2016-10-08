@@ -78,11 +78,11 @@
                         <span class="name">{{ $club->name }}</span>
                         <hr class="star-light">
                         <span class="skills">
-                        @foreach ($categories as $category)
-                            @if($category == end($categories))
-                                {{$category->title}}
+                        @foreach ($categories as $key => $category)
+                            @if($key+1 == count($categories))
+                                {{ $category->title }}
                             @else
-                                {{$category->title}} - 
+                                {{ $category->title }} - 
                             @endif
                         @endforeach
                         </span>
@@ -102,9 +102,9 @@
                 </div>
             </div>
             <div class="row">
-
                 @foreach ($categories as $key => $category)
                 <div class="col-sm-4 portfolio-item">
+                    <h3 style="text-align:center;">{{$category->title}}</h3>
                     <a href="#portfolioModal{{$key}}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
