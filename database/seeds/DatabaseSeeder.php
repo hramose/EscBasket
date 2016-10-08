@@ -14,7 +14,10 @@ class DatabaseSeeder extends Seeder
     {
         Model::unguard();
 
-        // $this->call(UserTableSeeder::class);
+        $this->call(ClubTableSeeder::class);
+        $this->call(Club_infoTableSeeder::class);
+
+        $this->command->info('EscBasket app seeds finished.');
 
         Model::reguard();
     }
