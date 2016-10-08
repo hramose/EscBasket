@@ -19,7 +19,7 @@ class Club_infoTableSeeder extends Seeder
         $faker = Faker::create();
         $club = Club::where('name','=','EscBasket')->first();
 
-        $escBasket = Club_info::create(array(
+        $escBasket_info = Club_info::create(array(
         	'description'	=> $faker->paragraph,
         	'vision'	=> $faker->paragraph,
         	'mission'	=> $faker->paragraph,

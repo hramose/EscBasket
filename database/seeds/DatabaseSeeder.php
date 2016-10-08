@@ -16,6 +16,9 @@ class DatabaseSeeder extends Seeder
 
         $this->call(ClubTableSeeder::class);
         $this->call(Club_infoTableSeeder::class);
+        $this->call(HomepageTableSeeder::class);
+        $this->call(ContactTableSeeder::class);
+        $this->call(CategoryTableSeeder::class);
 
         $this->command->info('EscBasket app seeds finished.');
 
