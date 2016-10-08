@@ -61,7 +61,7 @@ return [
             'strict' => false,
             'engine' => null,
         ],
-        'mysql_testing' => [
+        'escbasket_test' => [
             'driver' => 'mysql',
             'host' => env('DB_TEST_HOST', 'localhost'),
             'port' => env('DB_TEST_PORT', '3306'),
