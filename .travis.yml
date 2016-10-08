@@ -23,6 +23,7 @@ before_script:
   - composer global require 'phpmetrics/phpmetrics'
   - composer install --no-interaction
   - php artisan key:generate
+  - php artisan migrate --database=escbasket_test --seed
 
 addons:
   apt:
