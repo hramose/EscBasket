@@ -59,6 +59,10 @@ Searching for files in directory /home/travis/build/tvargasvicencio/EscBasket/ap
 Searching for files in directory /home/travis/build/tvargasvicencio/EscBasket/app/Providers
 Searching for files in directory /home/travis/build/tvargasvicencio/EscBasket/tests
 Reading and parsing tag files
+Reading /home/travis/build/tvargasvicencio/EscBasket/app/Club.php...
+Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Club.php...
+Reading /home/travis/build/tvargasvicencio/EscBasket/app/Club_info.php...
+Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Club_info.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Console/Commands/Inspire.php...
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Console/Commands/Inspire.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php...
@@ -82,10 +86,7 @@ Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/En
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php...
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/VerifyCsrfToken.php...
-Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/VerifyCsrfToken.php...
-Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Requests/Request.php...
-Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Requests/Request.php...
-Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/home/travis/build/tvargasvicencio/EscBasket/app/Providers/AuthServiceProvider.php:9: warning: Compound App::Providers::AuthServiceProvider is not documented.
+Parsing file /home/travis/build/tvargasvice/home/travis/build/tvargasvicencio/EscBasket/app/Providers/AuthServiceProvider.php:9: warning: Compound App::Providers::AuthServiceProvider is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/EventServiceProvider.php:9: warning: Compound App::Providers::EventServiceProvider is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php:9: warning: Compound App::Http::Middleware::RedirectIfAuthenticated is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:12: warning: Compound App::Exceptions::Handler is not documented.
@@ -93,6 +94,7 @@ Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/home/travis/build/
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/AppServiceProvider.php:8: warning: Compound App::Providers::AppServiceProvider is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Console/Commands/Inspire.php:9: warning: Compound App::Console::Commands::Inspire is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php:9: warning: Compound App::Console::Kernel is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club_info.php:8: warning: Compound App::Club_info is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Events/Event.php:6: warning: Compound App::Events::Event is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/VerifyCsrfToken.php:8: warning: Compound App::Http::Middleware::VerifyCsrfToken is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Requests/Request.php:8: warning: Compound App::Http::Requests::Request is not documented.
@@ -103,6 +105,7 @@ Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/home/travis/build/
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Controller.php:11: warning: Compound App::Http::Controllers::Controller is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Kernel.php:8: warning: Compound App::Http::Kernel is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:12: warning: Compound App::Http::Controllers::Auth::AuthController is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:8: warning: Compound App::Club is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/User.php:16: warning: Compound App::User is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Jobs/Job.php:8: warning: Compound App::Jobs::Job is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php:9: warning: Compound App::Http::Middleware::Authenticate is not documented.
@@ -127,6 +130,15 @@ Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/home/travis/build/
 /home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:14: warning: Found unknown command `\Illuminate'
 /home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:14: warning: Found unknown command `\Foundation'
 /home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:14: warning: Found unknown command `\Application'
+/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:13: warning: Member club_info() (function) of class App::Club is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:17: warning: Member homepage() (function) of class App::Club is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:21: warning: Member contact() (function) of class App::Club is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:25: warning: Member category() (function) of class App::Club is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:9: warning: Member $table (variable) of class App::Club is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:11: warning: Member $fillable (variable) of class App::Club is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club_info.php:14: warning: Member club() (function) of class App::Club_info is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club_info.php:9: warning: Member $table (variable) of class App::Club_info is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club_info.php:11: warning: Member $fillable (variable) of class App::Club_info is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/User.php:24: warning: Member $table (variable) of class App::User is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/User.php:31: warning: Member $fillable (variable) of class App::User is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/User.php:38: warning: Member $hidden (variable) of class App::User is not documented.
@@ -155,28 +167,10 @@ Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/home/travis/build/
   parameter 'e'
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Kernel.php:21: warning: Member $middleware (variable) of class App::Http::Kernel is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Kernel.php:29: warning: Member $routeMiddleware (variable) of class App::Http::Kernel is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:39: warning: Found unknown command `\Illuminate'
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:39: warning: Found unknown command `\Contracts'
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:39: warning: Found unknown command `\Validation'
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:39: warning: Found unknown command `\Validator'
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php:15: warning: Member $auth (variable) of class App::Http::Middleware::Authenticate is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php:28: warning: argument 'Illuminate' of command @param is not found in the argument list of App\Http\Middleware\Authenticate::handle($request, Closure $next)
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php:28: warning: argument 'Http' of command @param is not found in the argument list of App\Http\Middleware\Authenticate::handle($request, Closure $next)
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php:28: warning: argument 'Request' of command @param is not found in the argument list of App\Http\Middleware\Authenticate::handle($request, Closure $next)
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php:28: warning: argument 'Closure' of command @param is not found in the argument list of App\Http\Middleware\Authenticate::handle($request, Closure $next)
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php:28: warning: The following parameters of App::Http::Middleware::Authenticate::handle($request, Closure $next) are not documented:
-  parameter 'request'
-  parameter 'next'
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/EncryptCookies.php:16: warning: Member $except (variable) of class App::Http::Middleware::EncryptCookies is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php:15: warning: Member $auth (variable) of class App::Http::Middleware::RedirectIfAuthenticated is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php:28: warning: argument 'Illuminate' of command @param is not found in the argument list of App\Http\Middleware\RedirectIfAuthenticated::handle($request, Closure $next)
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php:28: warning: argument 'Http' of command @param is not found in the argument list of App\Http\Middleware\RedirectIfAuthenticated::handle($request, Closure $next)
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php:28: warning: argument 'Request' of command @param is not found in the argument list of App\Http\Middleware\RedirectIfAuthenticated::handle($request, Closure $next)
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php:28: warning: argument 'Closure' of command @param is not found in the argument list of App\Http\Middleware\RedirectIfAuthenticated::handle($request, Closure $next)
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php:28: warning: The following parameters of App::Http::Middleware::RedirectIfAuthenticated::handle($request, Closure $next) are not documented:
-  parameter 'request'
-  parameter 'next'
-/routes.php...
+ncio/EscBasket/app/Http/Middleware/VerifyCsrfToken.php...
+Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Requests/Request.php...
+Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Requests/Request.php...
+Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/routes.php...
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/routes.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Jobs/Job.php...
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Jobs/Job.php...
@@ -250,6 +244,8 @@ Generating class documentation...
 Generating docs for compound ExampleTest...
 Generating docs for compound TestCase...
 Generating namespace index...
+Generating docs for compound App::Club...
+Generating docs for compound App::Club_info...
 Generating docs for compound App::User...
 Generating docs for compound App::Console::Kernel...
 Generating docs for compound App::Console::Commands::Inspire...
@@ -257,12 +253,28 @@ Generating docs for compound App::Events::Event...
 Generating docs for compound App::Exceptions::Handler...
 Generating docs for compound App::Http::Kernel...
 Generating docs for compound App::Http::Controllers::Controller...
-Generating docs for compound App::Http::Controllers::Auth::AuthController...
-Generating docs for compound App::Http::Controllers::Auth::PasswordController...
-Generating docs for compound App::Http::Middleware::Authenticate...
-Generating docs for compound App::Http::Middleware::EncryptCookies...
-Generating docs for compound App::Http::Middleware::RedirectIfAuthenticated...
-Generating docs for compound/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/VerifyCsrfToken.php:16: warning: Member $except (variable) of class App::Http::Middleware::VerifyCsrfToken is not documented.
+Generating docs fo/home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:39: warning: Found unknown command `\Illuminate'
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:39: warning: Found unknown command `\Contracts'
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:39: warning: Found unknown command `\Validation'
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:39: warning: Found unknown command `\Validator'
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php:15: warning: Member $auth (variable) of class App::Http::Middleware::Authenticate is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php:28: warning: argument 'Illuminate' of command @param is not found in the argument list of App\Http\Middleware\Authenticate::handle($request, Closure $next)
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php:28: warning: argument 'Http' of command @param is not found in the argument list of App\Http\Middleware\Authenticate::handle($request, Closure $next)
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php:28: warning: argument 'Request' of command @param is not found in the argument list of App\Http\Middleware\Authenticate::handle($request, Closure $next)
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php:28: warning: argument 'Closure' of command @param is not found in the argument list of App\Http\Middleware\Authenticate::handle($request, Closure $next)
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php:28: warning: The following parameters of App::Http::Middleware::Authenticate::handle($request, Closure $next) are not documented:
+  parameter 'request'
+  parameter 'next'
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/EncryptCookies.php:16: warning: Member $except (variable) of class App::Http::Middleware::EncryptCookies is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php:15: warning: Member $auth (variable) of class App::Http::Middleware::RedirectIfAuthenticated is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php:28: warning: argument 'Illuminate' of command @param is not found in the argument list of App\Http\Middleware\RedirectIfAuthenticated::handle($request, Closure $next)
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php:28: warning: argument 'Http' of command @param is not found in the argument list of App\Http\Middleware\RedirectIfAuthenticated::handle($request, Closure $next)
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php:28: warning: argument 'Request' of command @param is not found in the argument list of App\Http\Middleware\RedirectIfAuthenticated::handle($request, Closure $next)
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php:28: warning: argument 'Closure' of command @param is not found in the argument list of App\Http\Middleware\RedirectIfAuthenticated::handle($request, Closure $next)
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php:28: warning: The following parameters of App::Http::Middleware::RedirectIfAuthenticated::handle($request, Closure $next) are not documented:
+  parameter 'request'
+  parameter 'next'
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/VerifyCsrfToken.php:16: warning: Member $except (variable) of class App::Http::Middleware::VerifyCsrfToken is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/AuthServiceProvider.php:16: warning: Member $policies (variable) of class App::Providers::AuthServiceProvider is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/AuthServiceProvider.php:19: warning: argument 'Illuminate' of command @param is not found in the argument list of App\Providers\AuthServiceProvider::boot(GateContract $gate)
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/AuthServiceProvider.php:19: warning: argument 'Contracts' of command @param is not found in the argument list of App\Providers\AuthServiceProvider::boot(GateContract $gate)
@@ -289,7 +301,12 @@ Generating docs for compound/home/travis/build/tvargasvicencio/EscBasket/app/Htt
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/RouteServiceProvider.php:32: warning: argument 'Router' of command @param is not found in the argument list of App\Providers\RouteServiceProvider::map(Router $router)
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/RouteServiceProvider.php:32: warning: The following parameters of App::Providers::RouteServiceProvider::map(Router $router) are not documented:
   parameter 'router'
- App::Http::Middleware::VerifyCsrfToken...
+r compound App::Http::Controllers::Auth::AuthController...
+Generating docs for compound App::Http::Controllers::Auth::PasswordController...
+Generating docs for compound App::Http::Middleware::Authenticate...
+Generating docs for compound App::Http::Middleware::EncryptCookies...
+Generating docs for compound App::Http::Middleware::RedirectIfAuthenticated...
+Generating docs for compound App::Http::Middleware::VerifyCsrfToken...
 Generating docs for compound App::Http::Requests::Request...
 Generating docs for compound App::Jobs::Job...
 Generating docs for compound App::Providers::AppServiceProvider...
@@ -312,41 +329,43 @@ Generating file member index...
 Generating example index...
 finalizing index lists...
 Generating dot graphs using 33 parallel threads...
-Running dot for graph 1/35
-Running dot for graph 2/35
-Running dot for graph 3/35
-Running dot for graph 4/35
-Running dot for graph 5/35
-Running dot for graph 6/35
-Running dot for graph 7/35
-Running dot for graph 8/35
-Running dot for graph 9/35
-Running dot for graph 10/35
-Running dot for graph 11/35
-Running dot for graph 12/35
-Running dot for graph 13/35
-Running dot for graph 14/35
-Running dot for graph 15/35
-Running dot for graph 16/35
-Running dot for graph 17/35
-Running dot for graph 18/35
-Running dot for graph 19/35
-Running dot for graph 20/35
-Running dot for graph 21/35
-Running dot for graph 22/35
-Running dot for graph 23/35
-Running dot for graph 24/35
-Running dot for graph 25/35
-Running dot for graph 26/35
-Running dot for graph 27/35
-Running dot for graph 28/35
-Running dot for graph 29/35
-Running dot for graph 30/35
-Running dot for graph 31/35
-Running dot for graph 32/35
-Running dot for graph 33/35
-Running dot for graph 34/35
-Running dot for graph 35/35
+Running dot for graph 1/37
+Running dot for graph 2/37
+Running dot for graph 3/37
+Running dot for graph 4/37
+Running dot for graph 5/37
+Running dot for graph 6/37
+Running dot for graph 7/37
+Running dot for graph 8/37
+Running dot for graph 9/37
+Running dot for graph 10/37
+Running dot for graph 11/37
+Running dot for graph 12/37
+Running dot for graph 13/37
+Running dot for graph 14/37
+Running dot for graph 15/37
+Running dot for graph 16/37
+Running dot for graph 17/37
+Running dot for graph 18/37
+Running dot for graph 19/37
+Running dot for graph 20/37
+Running dot for graph 21/37
+Running dot for graph 22/37
+Running dot for graph 23/37
+Running dot for graph 24/37
+Running dot for graph 25/37
+Running dot for graph 26/37
+Running dot for graph 27/37
+Running dot for graph 28/37
+Running dot for graph 29/37
+Running dot for graph 30/37
+Running dot for graph 31/37
+Running dot for graph 32/37
+Running dot for graph 33/37
+Running dot for graph 34/37
+Running dot for graph 35/37
+Running dot for graph 36/37
+Running dot for graph 37/37
 Patching output file 1/11
 Patching output file 2/11
 Patching output file 3/11
@@ -358,6 +377,6 @@ Patching output file 8/11
 Patching output file 9/11
 Patching output file 10/11
 Patching output file 11/11
-symbol cache used 37/65536 hits=954 misses=37
-lookup cache used 107/65536 hits=276 misses=123
+symbol cache used 46/65536 hits=1152 misses=46
+lookup cache used 116/65536 hits=306 misses=134
 finished...
