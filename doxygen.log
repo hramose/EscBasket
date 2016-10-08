@@ -59,6 +59,8 @@ Searching for files in directory /home/travis/build/tvargasvicencio/EscBasket/ap
 Searching for files in directory /home/travis/build/tvargasvicencio/EscBasket/app/Providers
 Searching for files in directory /home/travis/build/tvargasvicencio/EscBasket/tests
 Reading and parsing tag files
+Reading /home/travis/build/tvargasvicencio/EscBasket/app/Category.php...
+Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Category.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Club.php...
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Club.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Club_info.php...
@@ -67,10 +69,14 @@ Reading /home/travis/build/tvargasvicencio/EscBasket/app/Console/Commands/Inspir
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Console/Commands/Inspire.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php...
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php...
+Reading /home/travis/build/tvargasvicencio/EscBasket/app/Contact.php...
+Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Contact.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Events/Event.php...
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Events/Event.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php...
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php...
+Reading /home/travis/build/tvargasvicencio/EscBasket/app/Homepage.php...
+Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Homepage.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php...
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/PasswordController.php...
@@ -82,13 +88,11 @@ Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Kernel.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php...
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/EncryptCookies.php...
-Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/EncryptCookies.php...
-Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php...
-Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php...
-Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/VerifyCsrfToken.php...
-Parsing file /home/travis/build/tvargasvice/home/travis/build/tvargasvicencio/EscBasket/app/Providers/AuthServiceProvider.php:9: warning: Compound App::Providers::AuthServiceProvider is not documented.
+P/home/travis/build/tvargasvicencio/EscBasket/app/Providers/AuthServiceProvider.php:9: warning: Compound App::Providers::AuthServiceProvider is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/EventServiceProvider.php:9: warning: Compound App::Providers::EventServiceProvider is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php:9: warning: Compound App::Http::Middleware::RedirectIfAuthenticated is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Contact.php:8: warning: Compound App::Contact is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Homepage.php:8: warning: Compound App::Homepage is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:12: warning: Compound App::Exceptions::Handler is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/EncryptCookies.php:8: warning: Compound App::Http::Middleware::EncryptCookies is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/AppServiceProvider.php:8: warning: Compound App::Providers::AppServiceProvider is not documented.
@@ -104,6 +108,7 @@ Parsing file /home/travis/build/tvargasvice/home/travis/build/tvargasvicencio/Es
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/RouteServiceProvider.php:9: warning: Compound App::Providers::RouteServiceProvider is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Controller.php:11: warning: Compound App::Http::Controllers::Controller is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Kernel.php:8: warning: Compound App::Http::Kernel is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Category.php:8: warning: Compound App::Category is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:12: warning: Compound App::Http::Controllers::Auth::AuthController is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Club.php:8: warning: Compound App::Club is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/User.php:16: warning: Compound App::User is not documented.
@@ -130,44 +135,11 @@ Parsing file /home/travis/build/tvargasvice/home/travis/build/tvargasvicencio/Es
 /home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:14: warning: Found unknown command `\Illuminate'
 /home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:14: warning: Found unknown command `\Foundation'
 /home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:14: warning: Found unknown command `\Application'
-/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:13: warning: Member club_info() (function) of class App::Club is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:17: warning: Member homepage() (function) of class App::Club is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:21: warning: Member contact() (function) of class App::Club is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:25: warning: Member category() (function) of class App::Club is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:9: warning: Member $table (variable) of class App::Club is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:11: warning: Member $fillable (variable) of class App::Club is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Club_info.php:14: warning: Member club() (function) of class App::Club_info is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Club_info.php:9: warning: Member $table (variable) of class App::Club_info is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Club_info.php:11: warning: Member $fillable (variable) of class App::Club_info is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/User.php:24: warning: Member $table (variable) of class App::User is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/User.php:31: warning: Member $fillable (variable) of class App::User is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/User.php:38: warning: Member $hidden (variable) of class App::User is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php:17: warning: Member $commands (variable) of class App::Console::Kernel is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php:19: warning: argument 'Illuminate' of command @param is not found in the argument list of App\Console\Kernel::schedule(Schedule $schedule)
-/home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php:19: warning: argument 'Console' of command @param is not found in the argument list of App\Console\Kernel::schedule(Schedule $schedule)
-/home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php:19: warning: argument 'Scheduling' of command @param is not found in the argument list of App\Console\Kernel::schedule(Schedule $schedule)
-/home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php:19: warning: argument 'Schedule' of command @param is not found in the argument list of App\Console\Kernel::schedule(Schedule $schedule)
-/home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php:19: warning: The following parameters of App::Console::Kernel::schedule(Schedule $schedule) are not documented:
-  parameter 'schedule'
-/home/travis/build/tvargasvicencio/EscBasket/app/Console/Commands/Inspire.php:15: warning: Member $signature (variable) of class App::Console::Commands::Inspire is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Console/Commands/Inspire.php:22: warning: Member $description (variable) of class App::Console::Commands::Inspire is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:21: warning: Member $dontReport (variable) of class App::Exceptions::Handler is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:36: warning: argument 'Illuminate' of command @param is not found in the argument list of App\Exceptions\Handler::render($request, Exception $e)
-/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:36: warning: argument 'Http' of command @param is not found in the argument list of App\Exceptions\Handler::render($request, Exception $e)
-/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:36: warning: argument 'Request' of command @param is not found in the argument list of App\Exceptions\Handler::render($request, Exception $e)
-/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:36: warning: argument 'Exception' of command @param is not found in the argument list of App\Exceptions\Handler::render($request, Exception $e)
-/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:40: warning: Found unknown command `\Illuminate'
-/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:40: warning: Found unknown command `\Http'
-/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:40: warning: Found unknown command `\Response'
-/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:36: warning: The following parameters of App::Exceptions::Handler::render($request, Exception $e) are not documented:
-  parameter 'request'
-  parameter 'e'
-/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:23: warning: argument 'Exception' of command @param is not found in the argument list of App\Exceptions\Handler::report(Exception $e)
-/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:23: warning: The following parameters of App::Exceptions::Handler::report(Exception $e) are not documented:
-  parameter 'e'
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Kernel.php:21: warning: Member $middleware (variable) of class App::Http::Kernel is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/app/Http/Kernel.php:29: warning: Member $routeMiddleware (variable) of class App::Http::Kernel is not documented.
-ncio/EscBasket/app/Http/Middleware/VerifyCsrfToken.php...
+arsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/EncryptCookies.php...
+Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php...
+Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php...
+Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/VerifyCsrfToken.php...
+Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/VerifyCsrfToken.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Requests/Request.php...
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Requests/Request.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/routes.php...
@@ -244,16 +216,53 @@ Generating class documentation...
 Generating docs for compound ExampleTest...
 Generating docs for compound TestCase...
 Generating namespace index...
-Generating docs for compound App::Club...
-Generating docs for compound App::Club_info...
-Generating docs for compound App::User...
-Generating docs for compound App::Console::Kernel...
-Generating docs for compound App::Console::Commands::Inspire...
-Generating docs for compound App::Events::Event...
-Generating docs for compound App::Exceptions::Handler...
-Generating docs for compound App::Http::Kernel...
-Generating docs for compound App::Http::Controllers::Controller...
-Generating docs fo/home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:39: warning: Found unknown command `\Illuminate'
+Generating docs for compound App::Catego/home/travis/build/tvargasvicencio/EscBasket/app/Category.php:14: warning: Member club() (function) of class App::Category is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Category.php:9: warning: Member $table (variable) of class App::Category is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Category.php:11: warning: Member $fillable (variable) of class App::Category is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:13: warning: Member club_info() (function) of class App::Club is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:17: warning: Member homepage() (function) of class App::Club is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:21: warning: Member contact() (function) of class App::Club is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:25: warning: Member category() (function) of class App::Club is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:9: warning: Member $table (variable) of class App::Club is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club.php:11: warning: Member $fillable (variable) of class App::Club is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club_info.php:14: warning: Member club() (function) of class App::Club_info is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club_info.php:9: warning: Member $table (variable) of class App::Club_info is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Club_info.php:11: warning: Member $fillable (variable) of class App::Club_info is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Contact.php:14: warning: Member club() (function) of class App::Contact is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Contact.php:9: warning: Member $table (variable) of class App::Contact is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Contact.php:11: warning: Member $fillable (variable) of class App::Contact is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Homepage.php:23: warning: Member club() (function) of class App::Homepage is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Homepage.php:9: warning: Member $table (variable) of class App::Homepage is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Homepage.php:20: warning: Member $fillable (variable) of class App::Homepage is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/User.php:24: warning: Member $table (variable) of class App::User is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/User.php:31: warning: Member $fillable (variable) of class App::User is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/User.php:38: warning: Member $hidden (variable) of class App::User is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php:17: warning: Member $commands (variable) of class App::Console::Kernel is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php:19: warning: argument 'Illuminate' of command @param is not found in the argument list of App\Console\Kernel::schedule(Schedule $schedule)
+/home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php:19: warning: argument 'Console' of command @param is not found in the argument list of App\Console\Kernel::schedule(Schedule $schedule)
+/home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php:19: warning: argument 'Scheduling' of command @param is not found in the argument list of App\Console\Kernel::schedule(Schedule $schedule)
+/home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php:19: warning: argument 'Schedule' of command @param is not found in the argument list of App\Console\Kernel::schedule(Schedule $schedule)
+/home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php:19: warning: The following parameters of App::Console::Kernel::schedule(Schedule $schedule) are not documented:
+  parameter 'schedule'
+/home/travis/build/tvargasvicencio/EscBasket/app/Console/Commands/Inspire.php:15: warning: Member $signature (variable) of class App::Console::Commands::Inspire is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Console/Commands/Inspire.php:22: warning: Member $description (variable) of class App::Console::Commands::Inspire is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:21: warning: Member $dontReport (variable) of class App::Exceptions::Handler is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:36: warning: argument 'Illuminate' of command @param is not found in the argument list of App\Exceptions\Handler::render($request, Exception $e)
+/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:36: warning: argument 'Http' of command @param is not found in the argument list of App\Exceptions\Handler::render($request, Exception $e)
+/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:36: warning: argument 'Request' of command @param is not found in the argument list of App\Exceptions\Handler::render($request, Exception $e)
+/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:36: warning: argument 'Exception' of command @param is not found in the argument list of App\Exceptions\Handler::render($request, Exception $e)
+/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:40: warning: Found unknown command `\Illuminate'
+/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:40: warning: Found unknown command `\Http'
+/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:40: warning: Found unknown command `\Response'
+/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:36: warning: The following parameters of App::Exceptions::Handler::render($request, Exception $e) are not documented:
+  parameter 'request'
+  parameter 'e'
+/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:23: warning: argument 'Exception' of command @param is not found in the argument list of App\Exceptions\Handler::report(Exception $e)
+/home/travis/build/tvargasvicencio/EscBasket/app/Exceptions/Handler.php:23: warning: The following parameters of App::Exceptions::Handler::report(Exception $e) are not documented:
+  parameter 'e'
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Kernel.php:21: warning: Member $middleware (variable) of class App::Http::Kernel is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Kernel.php:29: warning: Member $routeMiddleware (variable) of class App::Http::Kernel is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:39: warning: Found unknown command `\Illuminate'
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:39: warning: Found unknown command `\Contracts'
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:39: warning: Found unknown command `\Validation'
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:39: warning: Found unknown command `\Validator'
@@ -301,7 +310,19 @@ Generating docs fo/home/travis/build/tvargasvicencio/EscBasket/app/Http/Controll
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/RouteServiceProvider.php:32: warning: argument 'Router' of command @param is not found in the argument list of App\Providers\RouteServiceProvider::map(Router $router)
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/RouteServiceProvider.php:32: warning: The following parameters of App::Providers::RouteServiceProvider::map(Router $router) are not documented:
   parameter 'router'
-r compound App::Http::Controllers::Auth::AuthController...
+ry...
+Generating docs for compound App::Club...
+Generating docs for compound App::Club_info...
+Generating docs for compound App::Contact...
+Generating docs for compound App::Homepage...
+Generating docs for compound App::User...
+Generating docs for compound App::Console::Kernel...
+Generating docs for compound App::Console::Commands::Inspire...
+Generating docs for compound App::Events::Event...
+Generating docs for compound App::Exceptions::Handler...
+Generating docs for compound App::Http::Kernel...
+Generating docs for compound App::Http::Controllers::Controller...
+Generating docs for compound App::Http::Controllers::Auth::AuthController...
 Generating docs for compound App::Http::Controllers::Auth::PasswordController...
 Generating docs for compound App::Http::Middleware::Authenticate...
 Generating docs for compound App::Http::Middleware::EncryptCookies...
@@ -329,43 +350,46 @@ Generating file member index...
 Generating example index...
 finalizing index lists...
 Generating dot graphs using 33 parallel threads...
-Running dot for graph 1/37
-Running dot for graph 2/37
-Running dot for graph 3/37
-Running dot for graph 4/37
-Running dot for graph 5/37
-Running dot for graph 6/37
-Running dot for graph 7/37
-Running dot for graph 8/37
-Running dot for graph 9/37
-Running dot for graph 10/37
-Running dot for graph 11/37
-Running dot for graph 12/37
-Running dot for graph 13/37
-Running dot for graph 14/37
-Running dot for graph 15/37
-Running dot for graph 16/37
-Running dot for graph 17/37
-Running dot for graph 18/37
-Running dot for graph 19/37
-Running dot for graph 20/37
-Running dot for graph 21/37
-Running dot for graph 22/37
-Running dot for graph 23/37
-Running dot for graph 24/37
-Running dot for graph 25/37
-Running dot for graph 26/37
-Running dot for graph 27/37
-Running dot for graph 28/37
-Running dot for graph 29/37
-Running dot for graph 30/37
-Running dot for graph 31/37
-Running dot for graph 32/37
-Running dot for graph 33/37
-Running dot for graph 34/37
-Running dot for graph 35/37
-Running dot for graph 36/37
-Running dot for graph 37/37
+Running dot for graph 1/40
+Running dot for graph 2/40
+Running dot for graph 3/40
+Running dot for graph 4/40
+Running dot for graph 5/40
+Running dot for graph 6/40
+Running dot for graph 7/40
+Running dot for graph 8/40
+Running dot for graph 9/40
+Running dot for graph 10/40
+Running dot for graph 11/40
+Running dot for graph 12/40
+Running dot for graph 13/40
+Running dot for graph 14/40
+Running dot for graph 15/40
+Running dot for graph 16/40
+Running dot for graph 17/40
+Running dot for graph 18/40
+Running dot for graph 19/40
+Running dot for graph 20/40
+Running dot for graph 21/40
+Running dot for graph 22/40
+Running dot for graph 23/40
+Running dot for graph 24/40
+Running dot for graph 25/40
+Running dot for graph 26/40
+Running dot for graph 27/40
+Running dot for graph 28/40
+Running dot for graph 29/40
+Running dot for graph 30/40
+Running dot for graph 31/40
+Running dot for graph 32/40
+Running dot for graph 33/40
+Running dot for graph 34/40
+Running dot for graph 35/40
+Running dot for graph 36/40
+Running dot for graph 37/40
+Running dot for graph 38/40
+Running dot for graph 39/40
+Running dot for graph 40/40
 Patching output file 1/11
 Patching output file 2/11
 Patching output file 3/11
@@ -377,6 +401,6 @@ Patching output file 8/11
 Patching output file 9/11
 Patching output file 10/11
 Patching output file 11/11
-symbol cache used 46/65536 hits=1152 misses=46
-lookup cache used 116/65536 hits=306 misses=134
+symbol cache used 55/65536 hits=1368 misses=55
+lookup cache used 129/65536 hits=352 misses=150
 finished...
