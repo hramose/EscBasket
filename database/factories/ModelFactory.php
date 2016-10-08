@@ -27,7 +27,7 @@ $factory->define(App\Category::class, function (Faker\Generator $faker) {
 	return [
 		'title' => $faker->numerify('Categoría #'),
 		'description' => $faker->paragraph,
-		'principal_image' => "logo2",
+		'principal_image' => $faker->randomElement($array = array ('cabin','cake','circus', 'game', 'safe', 'submarine')),
 		'club_id'	=> $club->id
 	];
 });
