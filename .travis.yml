@@ -32,6 +32,7 @@ addons:
       - graphviz
 
 script:
+  - php artisan migrate --database=homestead_test --seed
   - vendor/bin/phpunit
 
 after_script:
