@@ -46,7 +46,11 @@ return [
 
     'connections' => [
 
-
+        'sqlite' => [
+            'driver'   => 'sqlite',
+            'database' => database_path('database.sqlite'),
+            'prefix'   => '',
+        ],
 
         'mysql' => [
             'driver'    => 'mysql',
@@ -60,29 +64,25 @@ return [
             'strict'    => false,
         ],
 
-        'mysql_tests' => [
-            'driver'    => 'mysql',
-            'host'      => env('TESTING_DB_HOST', 'localhost'),
-            'host'      => env('DB_HOST', 'localhost'),
-            'database'  => env('DB_DATABASE', 'forge').'_test',
-            'username'  => env('DB_USERNAME', 'forge'),
-            'password'  => env('DB_PASSWORD', ''),
-            'charset'   => 'utf8',
-            'collation' => 'utf8_unicode_ci',
-            'prefix'    => '',
-            'strict'    => false,
+        'pgsql' => [
+            'driver'   => 'pgsql',
+            'host'     => env('DB_HOST', 'localhost'),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
+            'charset'  => 'utf8',
+            'prefix'   => '',
+            'schema'   => 'public',
         ],
 
-        'testing' => [
-            'driver'    => 'mysql',
-            'host'      => env('DB_TEST_HOST', 'localhost'),
-            'database'  => env('DB_TEST_DATABASE', 'homestead_test'),
-            'username'  => env('DB_TEST_USERNAME', 'homestead'),
-            'password'  => env('DB_TEST_PASSWORD', 'secret'),
-            'charset'   => 'utf8',
-            'collation' => 'utf8_unicode_ci',
-            'prefix'    => '',
-            'strict'    => false,
+        'sqlsrv' => [
+            'driver'   => 'sqlsrv',
+            'host'     => env('DB_HOST', 'localhost'),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
+            'charset'  => 'utf8',
+            'prefix'   => '',
         ],
 
     ],
