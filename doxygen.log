@@ -83,12 +83,11 @@ Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/P
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/PasswordController.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Controller.php...
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Controller.php...
+Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/HomepageController.php...
+Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/HomepageController.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Kernel.php...
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Kernel.php...
-Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php...
-Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php...
-Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/EncryptCookies.php...
-P/home/travis/build/tvargasvicencio/EscBasket/app/Providers/AuthServiceProvider.php:9: warning: Compound App::Providers::AuthServiceProvider is not documented.
+Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authentic/home/travis/build/tvargasvicencio/EscBasket/app/Providers/AuthServiceProvider.php:9: warning: Compound App::Providers::AuthServiceProvider is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/EventServiceProvider.php:9: warning: Compound App::Providers::EventServiceProvider is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php:9: warning: Compound App::Http::Middleware::RedirectIfAuthenticated is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Contact.php:8: warning: Compound App::Contact is not documented.
@@ -108,6 +107,7 @@ P/home/travis/build/tvargasvicencio/EscBasket/app/Providers/AuthServiceProvider.
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/RouteServiceProvider.php:9: warning: Compound App::Providers::RouteServiceProvider is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Controller.php:11: warning: Compound App::Http::Controllers::Controller is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Kernel.php:8: warning: Compound App::Http::Kernel is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/HomepageController.php:16: warning: Compound App::Http::Controllers::HomepageController is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Category.php:8: warning: Compound App::Category is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:12: warning: Compound App::Http::Controllers::Auth::AuthController is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Club.php:8: warning: Compound App::Club is not documented.
@@ -131,11 +131,10 @@ P/home/travis/build/tvargasvicencio/EscBasket/app/Providers/AuthServiceProvider.
 /home/travis/build/tvargasvicencio/EscBasket/app/User.php:29: warning: documented function `App\User::array' was not declared or defined.
 /home/travis/build/tvargasvicencio/EscBasket/app/User.php:36: warning: documented function `App\User::array' was not declared or defined.
 /home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:8: warning: documented function `TestCase::string' was not declared or defined.
-/home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:10: warning: Member $baseUrl (variable) of class TestCase is not documented.
-/home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:14: warning: Found unknown command `\Illuminate'
-/home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:14: warning: Found unknown command `\Foundation'
-/home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:14: warning: Found unknown command `\Application'
-arsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/EncryptCookies.php...
+ate.php...
+Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php...
+Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/EncryptCookies.php...
+Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/EncryptCookies.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php...
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/RedirectIfAuthenticated.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/VerifyCsrfToken.php...
@@ -211,12 +210,11 @@ Generating example documentation...
 Generating file sources...
 Generating file documentation...
 Generating page documentation...
-Generating group documentation...
-Generating class documentation...
-Generating docs for compound ExampleTest...
-Generating docs for compound TestCase...
-Generating namespace index...
-Generating docs for compound App::Catego/home/travis/build/tvargasvicencio/EscBasket/app/Category.php:14: warning: Member club() (function) of class App::Category is not documented.
+Generating group d/home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:10: warning: Member $baseUrl (variable) of class TestCase is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:14: warning: Found unknown command `\Illuminate'
+/home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:14: warning: Found unknown command `\Foundation'
+/home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:14: warning: Found unknown command `\Application'
+/home/travis/build/tvargasvicencio/EscBasket/app/Category.php:14: warning: Member club() (function) of class App::Category is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Category.php:9: warning: Member $table (variable) of class App::Category is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Category.php:11: warning: Member $fillable (variable) of class App::Category is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Club.php:13: warning: Member club_info() (function) of class App::Club is not documented.
@@ -262,6 +260,7 @@ Generating docs for compound App::Catego/home/travis/build/tvargasvicencio/EscBa
   parameter 'e'
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Kernel.php:21: warning: Member $middleware (variable) of class App::Http::Kernel is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Kernel.php:29: warning: Member $routeMiddleware (variable) of class App::Http::Kernel is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/HomepageController.php:17: warning: Member index() (function) of class App::Http::Controllers::HomepageController is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:39: warning: Found unknown command `\Illuminate'
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:39: warning: Found unknown command `\Contracts'
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Controllers/Auth/AuthController.php:39: warning: Found unknown command `\Validation'
@@ -310,7 +309,12 @@ Generating docs for compound App::Catego/home/travis/build/tvargasvicencio/EscBa
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/RouteServiceProvider.php:32: warning: argument 'Router' of command @param is not found in the argument list of App\Providers\RouteServiceProvider::map(Router $router)
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/RouteServiceProvider.php:32: warning: The following parameters of App::Providers::RouteServiceProvider::map(Router $router) are not documented:
   parameter 'router'
-ry...
+ocumentation...
+Generating class documentation...
+Generating docs for compound ExampleTest...
+Generating docs for compound TestCase...
+Generating namespace index...
+Generating docs for compound App::Category...
 Generating docs for compound App::Club...
 Generating docs for compound App::Club_info...
 Generating docs for compound App::Contact...
@@ -322,6 +326,7 @@ Generating docs for compound App::Events::Event...
 Generating docs for compound App::Exceptions::Handler...
 Generating docs for compound App::Http::Kernel...
 Generating docs for compound App::Http::Controllers::Controller...
+Generating docs for compound App::Http::Controllers::HomepageController...
 Generating docs for compound App::Http::Controllers::Auth::AuthController...
 Generating docs for compound App::Http::Controllers::Auth::PasswordController...
 Generating docs for compound App::Http::Middleware::Authenticate...
@@ -350,57 +355,63 @@ Generating file member index...
 Generating example index...
 finalizing index lists...
 Generating dot graphs using 33 parallel threads...
-Running dot for graph 1/40
-Running dot for graph 2/40
-Running dot for graph 3/40
-Running dot for graph 4/40
-Running dot for graph 5/40
-Running dot for graph 6/40
-Running dot for graph 7/40
-Running dot for graph 8/40
-Running dot for graph 9/40
-Running dot for graph 10/40
-Running dot for graph 11/40
-Running dot for graph 12/40
-Running dot for graph 13/40
-Running dot for graph 14/40
-Running dot for graph 15/40
-Running dot for graph 16/40
-Running dot for graph 17/40
-Running dot for graph 18/40
-Running dot for graph 19/40
-Running dot for graph 20/40
-Running dot for graph 21/40
-Running dot for graph 22/40
-Running dot for graph 23/40
-Running dot for graph 24/40
-Running dot for graph 25/40
-Running dot for graph 26/40
-Running dot for graph 27/40
-Running dot for graph 28/40
-Running dot for graph 29/40
-Running dot for graph 30/40
-Running dot for graph 31/40
-Running dot for graph 32/40
-Running dot for graph 33/40
-Running dot for graph 34/40
-Running dot for graph 35/40
-Running dot for graph 36/40
-Running dot for graph 37/40
-Running dot for graph 38/40
-Running dot for graph 39/40
-Running dot for graph 40/40
-Patching output file 1/11
-Patching output file 2/11
-Patching output file 3/11
-Patching output file 4/11
-Patching output file 5/11
-Patching output file 6/11
-Patching output file 7/11
-Patching output file 8/11
-Patching output file 9/11
-Patching output file 10/11
-Patching output file 11/11
-symbol cache used 55/65536 hits=1368 misses=55
-lookup cache used 129/65536 hits=352 misses=150
+Running dot for graph 1/44
+Running dot for graph 2/44
+Running dot for graph 3/44
+Running dot for graph 4/44
+Running dot for graph 5/44
+Running dot for graph 6/44
+Running dot for graph 7/44
+Running dot for graph 8/44
+Running dot for graph 9/44
+Running dot for graph 10/44
+Running dot for graph 11/44
+Running dot for graph 12/44
+Running dot for graph 13/44
+Running dot for graph 14/44
+Running dot for graph 15/44
+Running dot for graph 16/44
+Running dot for graph 17/44
+Running dot for graph 18/44
+Running dot for graph 19/44
+Running dot for graph 20/44
+Running dot for graph 21/44
+Running dot for graph 22/44
+Running dot for graph 23/44
+Running dot for graph 24/44
+Running dot for graph 25/44
+Running dot for graph 26/44
+Running dot for graph 27/44
+Running dot for graph 28/44
+Running dot for graph 29/44
+Running dot for graph 30/44
+Running dot for graph 31/44
+Running dot for graph 32/44
+Running dot for graph 33/44
+Running dot for graph 34/44
+Running dot for graph 35/44
+Running dot for graph 36/44
+Running dot for graph 37/44
+Running dot for graph 38/44
+Running dot for graph 39/44
+Running dot for graph 40/44
+Running dot for graph 41/44
+Running dot for graph 42/44
+Running dot for graph 43/44
+Running dot for graph 44/44
+Patching output file 1/13
+Patching output file 2/13
+Patching output file 3/13
+Patching output file 4/13
+Patching output file 5/13
+Patching output file 6/13
+Patching output file 7/13
+Patching output file 8/13
+Patching output file 9/13
+Patching output file 10/13
+Patching output file 11/13
+Patching output file 12/13
+Patching output file 13/13
+symbol cache used 56/65536 hits=1384 misses=56
+lookup cache used 130/65536 hits=354 misses=152
 finished...
