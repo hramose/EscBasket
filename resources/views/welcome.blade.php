@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-{{ $club->name }}
-{{ $club_info->description }}
 <html lang="en">
 
 <head>
