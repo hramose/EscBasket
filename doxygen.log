@@ -98,6 +98,7 @@ Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authent
 /home/travis/build/tvargasvicencio/EscBasket/app/Console/Commands/Inspire.php:9: warning: Compound App::Console::Commands::Inspire is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php:9: warning: Compound App::Console::Kernel is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Club_info.php:8: warning: Compound App::Club_info is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/tests/club_infoInHomepageTest.php:10: warning: Compound club_infoInHomepageTest is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Events/Event.php:6: warning: Compound App::Events::Event is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/VerifyCsrfToken.php:8: warning: Compound App::Http::Middleware::VerifyCsrfToken is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Requests/Request.php:8: warning: Compound App::Http::Requests::Request is not documented.
@@ -114,6 +115,7 @@ Reading /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authent
 /home/travis/build/tvargasvicencio/EscBasket/app/User.php:16: warning: Compound App::User is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Jobs/Job.php:8: warning: Compound App::Jobs::Job is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Http/Middleware/Authenticate.php:9: warning: Compound App::Http::Middleware::Authenticate is not documented.
+/home/travis/build/tvargasvicencio/EscBasket/tests/clubInHomepageTest.php:9: warning: Compound clubInHomepageTest is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/app/Console/Commands/Inspire.php:13: warning: documented function `App::Console::Commands\Inspire::string' was not declared or defined.
 /home/travis/build/tvargasvicencio/EscBasket/app/Console/Commands/Inspire.php:20: warning: documented function `App::Console::Commands\Inspire::string' was not declared or defined.
 /home/travis/build/tvargasvicencio/EscBasket/app/Console/Kernel.php:13: warning: documented function `App::Console\Kernel::array' was not declared or defined.
@@ -155,6 +157,10 @@ Reading /home/travis/build/tvargasvicencio/EscBasket/app/Providers/RouteServiceP
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/Providers/RouteServiceProvider.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/app/User.php...
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/app/User.php...
+Reading /home/travis/build/tvargasvicencio/EscBasket/tests/club_infoInHomepageTest.php...
+Parsing file /home/travis/build/tvargasvicencio/EscBasket/tests/club_infoInHomepageTest.php...
+Reading /home/travis/build/tvargasvicencio/EscBasket/tests/clubInHomepageTest.php...
+Parsing file /home/travis/build/tvargasvicencio/EscBasket/tests/clubInHomepageTest.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/tests/ExampleTest.php...
 Parsing file /home/travis/build/tvargasvicencio/EscBasket/tests/ExampleTest.php...
 Reading /home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php...
@@ -199,18 +205,7 @@ Adding source references...
 Adding xrefitems...
 Sorting member lists...
 Generating citations page...
-Counting data structures...
-Resolving user defined references...
-Finding anchors and sections in the documentation...
-Combining using relations...
-Adding members to index pages...
-Generating style sheet...
-Generating search indices...
-Generating example documentation...
-Generating file sources...
-Generating file documentation...
-Generating page documentation...
-Generating group d/home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:10: warning: Member $baseUrl (variable) of class TestCase is not documented.
+Counting data structur/home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:10: warning: Member $baseUrl (variable) of class TestCase is not documented.
 /home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:14: warning: Found unknown command `\Illuminate'
 /home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:14: warning: Found unknown command `\Foundation'
 /home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.php:14: warning: Found unknown command `\Application'
@@ -309,8 +304,21 @@ Generating group d/home/travis/build/tvargasvicencio/EscBasket/tests/TestCase.ph
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/RouteServiceProvider.php:32: warning: argument 'Router' of command @param is not found in the argument list of App\Providers\RouteServiceProvider::map(Router $router)
 /home/travis/build/tvargasvicencio/EscBasket/app/Providers/RouteServiceProvider.php:32: warning: The following parameters of App::Providers::RouteServiceProvider::map(Router $router) are not documented:
   parameter 'router'
-ocumentation...
+es...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Combining using relations...
+Adding members to index pages...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Generating file documentation...
+Generating page documentation...
+Generating group documentation...
 Generating class documentation...
+Generating docs for compound club_infoInHomepageTest...
+Generating docs for compound clubInHomepageTest...
 Generating docs for compound ExampleTest...
 Generating docs for compound TestCase...
 Generating namespace index...
@@ -355,63 +363,75 @@ Generating file member index...
 Generating example index...
 finalizing index lists...
 Generating dot graphs using 33 parallel threads...
-Running dot for graph 1/44
-Running dot for graph 2/44
-Running dot for graph 3/44
-Running dot for graph 4/44
-Running dot for graph 5/44
-Running dot for graph 6/44
-Running dot for graph 7/44
-Running dot for graph 8/44
-Running dot for graph 9/44
-Running dot for graph 10/44
-Running dot for graph 11/44
-Running dot for graph 12/44
-Running dot for graph 13/44
-Running dot for graph 14/44
-Running dot for graph 15/44
-Running dot for graph 16/44
-Running dot for graph 17/44
-Running dot for graph 18/44
-Running dot for graph 19/44
-Running dot for graph 20/44
-Running dot for graph 21/44
-Running dot for graph 22/44
-Running dot for graph 23/44
-Running dot for graph 24/44
-Running dot for graph 25/44
-Running dot for graph 26/44
-Running dot for graph 27/44
-Running dot for graph 28/44
-Running dot for graph 29/44
-Running dot for graph 30/44
-Running dot for graph 31/44
-Running dot for graph 32/44
-Running dot for graph 33/44
-Running dot for graph 34/44
-Running dot for graph 35/44
-Running dot for graph 36/44
-Running dot for graph 37/44
-Running dot for graph 38/44
-Running dot for graph 39/44
-Running dot for graph 40/44
-Running dot for graph 41/44
-Running dot for graph 42/44
-Running dot for graph 43/44
-Running dot for graph 44/44
-Patching output file 1/13
-Patching output file 2/13
-Patching output file 3/13
-Patching output file 4/13
-Patching output file 5/13
-Patching output file 6/13
-Patching output file 7/13
-Patching output file 8/13
-Patching output file 9/13
-Patching output file 10/13
-Patching output file 11/13
-Patching output file 12/13
-Patching output file 13/13
-symbol cache used 56/65536 hits=1384 misses=56
-lookup cache used 130/65536 hits=354 misses=152
+Running dot for graph 1/52
+Running dot for graph 2/52
+Running dot for graph 3/52
+Running dot for graph 4/52
+Running dot for graph 5/52
+Running dot for graph 6/52
+Running dot for graph 7/52
+Running dot for graph 8/52
+Running dot for graph 9/52
+Running dot for graph 10/52
+Running dot for graph 11/52
+Running dot for graph 12/52
+Running dot for graph 13/52
+Running dot for graph 14/52
+Running dot for graph 15/52
+Running dot for graph 16/52
+Running dot for graph 17/52
+Running dot for graph 18/52
+Running dot for graph 19/52
+Running dot for graph 20/52
+Running dot for graph 21/52
+Running dot for graph 22/52
+Running dot for graph 23/52
+Running dot for graph 24/52
+Running dot for graph 25/52
+Running dot for graph 26/52
+Running dot for graph 27/52
+Running dot for graph 28/52
+Running dot for graph 29/52
+Running dot for graph 30/52
+Running dot for graph 31/52
+Running dot for graph 32/52
+Running dot for graph 33/52
+Running dot for graph 34/52
+Running dot for graph 35/52
+Running dot for graph 36/52
+Running dot for graph 37/52
+Running dot for graph 38/52
+Running dot for graph 39/52
+Running dot for graph 40/52
+Running dot for graph 41/52
+Running dot for graph 42/52
+Running dot for graph 43/52
+Running dot for graph 44/52
+Running dot for graph 45/52
+Running dot for graph 46/52
+Running dot for graph 47/52
+Running dot for graph 48/52
+Running dot for graph 49/52
+Running dot for graph 50/52
+Running dot for graph 51/52
+Running dot for graph 52/52
+Patching output file 1/17
+Patching output file 2/17
+Patching output file 3/17
+Patching output file 4/17
+Patching output file 5/17
+Patching output file 6/17
+Patching output file 7/17
+Patching output file 8/17
+Patching output file 9/17
+Patching output file 10/17
+Patching output file 11/17
+Patching output file 12/17
+Patching output file 13/17
+Patching output file 14/17
+Patching output file 15/17
+Patching output file 16/17
+Patching output file 17/17
+symbol cache used 58/65536 hits=1456 misses=58
+lookup cache used 136/65536 hits=362 misses=160
 finished...
