@@ -12,7 +12,7 @@ class clubInHomepageTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testClubInHomepage()
     {
     	$club = Club::where('name','=','EscBasket')->first();
         $this->visit('/')

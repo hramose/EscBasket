@@ -13,7 +13,7 @@ class club_infoInHomepageTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testClub_infoInHomepage()
     {
     	$club = Club::where('name','=','EscBasket')->first();
     	$club_info = Club_info::where('club_id','=',$club->id)->first();
